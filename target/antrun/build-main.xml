@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <condition else="/home/erm/Programas/pi4j-projects/terminal/test01/target" property="finalJarDir" value="/home/erm/Programas/pi4j-projects/terminal/test01/target/lib">
+      <equals arg2="true" arg1="true" casesensitive="" />
+    </condition>
+  </target>
+</project>
